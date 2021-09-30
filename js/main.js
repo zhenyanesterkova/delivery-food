@@ -197,5 +197,9 @@ createCardRestaurants();
 
 new Swiper('.swiper-container', {
     sliderPerView: 1,
-    loop: true
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
 })
